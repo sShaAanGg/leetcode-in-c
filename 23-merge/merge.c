@@ -23,7 +23,7 @@ struct ListNode *mergeTwoLists(struct ListNode *list1, struct ListNode *list2)
         */
     }
 
-    /* 
+    /*
      * Either list1 points to null or list2
      * Cast pointer to integer type for logical OR operation
     */
@@ -31,7 +31,8 @@ struct ListNode *mergeTwoLists(struct ListNode *list1, struct ListNode *list2)
     return head;
 }
 
-struct ListNode *mergeKLists(struct ListNode **lists, int listsSize){
+struct ListNode *mergeKLists(struct ListNode **lists, int listsSize)
+{
     if (listsSize == 0)
         return NULL;
     
@@ -48,7 +49,8 @@ struct ListNode *mergeKLists(struct ListNode **lists, int listsSize){
 }
 
 // Use divide and conquer with mergeTwoLists() and mergeKLists()
-struct ListNode *mergeKLists(struct ListNode **lists, int listsSize) {
+struct ListNode *mergeKLists(struct ListNode **lists, int listsSize)
+{
     if (!listsSize)
         return NULL;
     if (listsSize <= 1) // Avoid underflow from the shift expression below

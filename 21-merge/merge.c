@@ -23,9 +23,9 @@ struct ListNode *mergeTwoLists(struct ListNode *list1, struct ListNode *list2)
         */
     }
 
-    /* 
+    /*
      * Either list1 points to null or list2
-     * Cast pointer to integer type for logical OR operation
+     * Cast pointer to integer type for bitwise logical OR operation
     */
     *indirect = (struct ListNode *) ((uintptr_t) list1 | (uintptr_t) list2);
     return head;

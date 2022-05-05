@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-typedef struct ListNode {
+struct ListNode {
     int val;
     struct ListNode *next;
 };

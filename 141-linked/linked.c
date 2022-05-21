@@ -10,8 +10,10 @@ struct ListNode {
 static inline struct ListNode *move(struct ListNode *cur) { return cur ? cur->next : NULL; }
 bool hasCycle(struct ListNode *head)
 {
-    struct ListNode *tortoise = head; // tortoise ats as a slow pointer
-    struct ListNode *hare = head; // hare acts as a fast pointer
+    /* tortoise acts as a slow pointer;
+       hare acts as a fast pointer */
+    struct ListNode *tortoise = head;
+    struct ListNode *hare = head;
     while (hare && hare->next) {
         tortoise = move(tortoise);
         hare = move(move(hare));

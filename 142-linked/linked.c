@@ -21,7 +21,7 @@ struct ListNode *detectCycle(struct ListNode *head)
         return NULL;
 
     /* tortoise starts at head node, and hare starts at meeting node.
-       They move at the same speed 1 node/iteration;
+       They move at the same speed 1 (node/iteration);
        the node they meet will be where the cycle begins */
     tortoise = head;
     while (tortoise != hare) {

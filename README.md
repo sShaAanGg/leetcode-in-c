@@ -1,5 +1,5 @@
 # leetcode-in-c
-Trying to solve some LeetCode problems in C
+Trying to solve some LeetCode problems (mainly) in C
 
 ## Problems solved
 The order of the list is based on that of my attempt to solve the corresponding problem

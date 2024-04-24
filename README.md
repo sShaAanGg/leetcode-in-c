@@ -11,6 +11,8 @@ The order of the list is based on that of my attempt to solve the corresponding 
 - [X] 142. Linked List Cycle II
 - [ ] 146. LRU Cache
 - [X] 1. Two Sum (hash table - unordered_map)
+- [X] 20. Valid Parentheses (stack)
+- [X] 121. Best Time to Buy and Sell Stock
 
 ## Reference
 ### Linked List

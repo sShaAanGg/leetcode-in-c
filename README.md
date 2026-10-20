@@ -1,7 +1,7 @@
 # leetcode-in-c
-Trying to solve some LeetCode problems (mainly) in C & C++
-
-- I plan to do it again, but this time i'd take a different route, targeting harder ones while using coding agents.
+Trying to solve some LeetCode problems ~~(mainly) in C & C++~~
+- This time i don't constrain the lang options
+- I plan to do it again, but this time I'd take a slightly different route, targeting harder ones while using coding agents.
     - This might suit the real-world scenario better now (Oct. 2026)
 
 <!-- ## Problems solved
